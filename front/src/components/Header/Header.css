@@ -1,0 +1,30 @@
+.NavBar {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Logo {
+    width: 106px;
+    height: 60px;
+    position: relative;
+    float: left;
+    background: url(../../assets/images/logo.png) 0 0 no-repeat;
+    margin: 0;
+}
+.Menu {
+    display: inline-block;
+    font-size: 19px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.Menu:active {
+    text-decoration: underline;
+}

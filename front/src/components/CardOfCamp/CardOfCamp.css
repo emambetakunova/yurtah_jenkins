@@ -1,0 +1,43 @@
+.Card {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Image {
+    border-radius: 23px;
+    width: 274px;
+    height: 177px;
+    margin: 0 auto;
+}
+
+.Title {
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.Price {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2F80ED;
+}
+
+@media screen and (min-width: 680px) {
+    .Card {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .Card {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Card {
+        width: 25%;
+    }
+}

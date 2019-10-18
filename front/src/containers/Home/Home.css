@@ -1,0 +1,14 @@
+.CardOfCamp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 40%;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width: 680px) {
+    .CardOfCamp {
+        margin-left: 0;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,51 @@
+.Form {
+    text-align: center;
+}
+
+.Input {
+    display: block;
+    width: 284px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    padding: 0 0 0 20px;
+    margin: 10px auto;
+}
+
+.Submit {
+    display: block;
+    width: 167px;
+    height: 50px;
+    background: #2F80ED;
+    border-radius: 16px;
+    border: none;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px auto;
+}
+
+.ErrorMessage {
+    color: #FF0000;
+}
+
+@media screen and (min-width: 680px) {
+    .Input {
+        display: inline;
+        border-radius: 16px 0 0 16px;
+        margin: 0;
+    }
+
+    .Submit {
+        display: inline;
+        border-radius: 0 16px 16px 0;
+        margin: 0;
+    }
+}
