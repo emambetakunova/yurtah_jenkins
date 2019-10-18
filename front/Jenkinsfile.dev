@@ -10,5 +10,12 @@ pipeline {
                 sh 'echo "Hello"'
             }
         }
+        stage('docker') {
+            steps {
+                echo "start building image"
+                dir (front/Docerfile)
+                sh 'Docker build'
+             }
+        }
     }
 }
