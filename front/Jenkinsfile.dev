@@ -1,6 +1,6 @@
 #!groovy
 
-properties([disableConcurrentBuilds])
+properties([disableConcurrentBuilds()])
 
 pipeline {
     agent { label 'master' }
@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Preparations') {
             steps {
-                sh 'ssh root@localhost:8080'
+                sh 'ssh root@localhost:8080 \'hostname\''
             }
         }
     }
